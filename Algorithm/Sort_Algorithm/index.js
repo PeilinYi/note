@@ -1,9 +1,6 @@
-module.exports = {
-	BubbleSort: require('./lib/BubbleSort'),
-	InsertionSort: require('./lib/InsertionSort'),
-	SelectionSort: require('./lib/SelectionSort'),
-	ShellSort: require('./lib/ShellSort'),
-	HeapSort: require('./lib/HeapSort'),
-	MergeSort: require('./lib/MergeSort'),
-	QuickSort: require('./lib/QuickSort')
-}
+const glob = require('glob')
+const path = require('path')
+
+glob.sync('./lib/*.js').forEach(file => {
+	module.exports[path.basename(file).slice(0, -3)] = require(file)
+})

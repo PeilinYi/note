@@ -29,52 +29,16 @@ describe('Sort Algorithm', () => {
 		done()
 	})
 
-	it('BubbleSort', done => {
-		Sort.BubbleSort(array)
-
-		expect(array).eql(result)
-		done()
+	_.mapKeys(Sort, (sort, sortName) => {
+		it(sortName, done => {
+			try {
+				sort(array)
+				expect(array).eql(result)
+				done()
+			} catch (err) {
+				done(err)
+			}
+		})
 	})
 
-	it('InsertionSort', done => {
-		Sort.InsertionSort(array)
-
-		expect(array).eql(result)
-		done()
-	})
-
-	it('SelectionSort', done => {
-		Sort.SelectionSort(array)
-
-		expect(array).eql(result)
-		done()
-	})
-
-	it('ShellSort', done => {
-		Sort.ShellSort(array)
-
-		expect(array).eql(result)
-		done()
-	})
-
-	it('HeapSort', done => {
-		Sort.HeapSort(array)
-
-		expect(array).eql(result)
-		done()
-	})
-
-	it('MergeSort', done => {
-		Sort.MergeSort(array)
-
-		expect(array).eql(result)
-		done()
-	})
-
-	it('QuickSort', done => {
-		Sort.QuickSort(array)
-
-		expect(array).eql(result)
-		done()
-	})
 })
