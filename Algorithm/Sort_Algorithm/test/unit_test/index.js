@@ -6,7 +6,7 @@ const Sort = require('../../')
 const _ = require('lodash')
 
 describe('Sort Algorithm', () => {
-	let count = 10
+	let count = 5000
 	let origin_array = []
 	let result = []
 
@@ -57,4 +57,24 @@ describe('Sort Algorithm', () => {
 		done()
 	})
 
+	it('HeapSort', done => {
+		Sort.HeapSort(array)
+
+		expect(array).eql(result)
+		done()
+	})
+
+	it('MergeSort', done => {
+		Sort.MergeSort(array)
+
+		expect(array).eql(result)
+		done()
+	})
+
+	it('QuickSort', done => {
+		Sort.QuickSort(array)
+
+		expect(array).eql(result)
+		done()
+	})
 })
