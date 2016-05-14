@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"draw_white_space": "all",
+	"font_face": "Yahei Consolas Hybrid",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_line_endings": true,
+	"ensure_newline_at_eof_on_save": true
+}

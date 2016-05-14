@@ -1,0 +1,14 @@
+{
+  // Enforcing
+  "quotmark": "single",
+  "strict": "global",
+  "undef": true,
+  "unused": true,
+
+  // Relaxing
+  "esnext": true,
+  "asi": true,
+
+  // Environments
+  "node": true
+}
