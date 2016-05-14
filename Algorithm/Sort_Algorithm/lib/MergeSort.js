@@ -42,5 +42,3 @@ function merge(sr, tr, i, m, n) {
 		}
 	}
 }
-
-module.exports([30, 50, 80, 60, 10, 70, 20, 40, 90, 110])
