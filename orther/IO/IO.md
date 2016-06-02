@@ -33,3 +33,5 @@
 > [使用异步 I/O 大大提高应用程序的性能](http://www.ibm.com/developerworks/cn/linux/l-async/)
 
 > [也谈同步异步I/O](http://www.smithfox.com/?e=191)
+
+> [深入浅出Node.js（五）：初探Node.js的异步I/O实现](http://www.infoq.com/cn/articles/nodejs-asynchronous-io)
