@@ -24,9 +24,7 @@
 
 # 参考
 
-> **_《深入浅出nodejs》--朴灵_**
-
-> [**_IO - 同步，异步，阻塞，非阻塞 （亡羊补牢篇）_**](http://blog.csdn.net/historyasamirror/article/details/5778378)
+> [IO - 同步，异步，阻塞，非阻塞 （亡羊补牢篇）](http://blog.csdn.net/historyasamirror/article/details/5778378)
 
 > [网络IO之阻塞、非阻塞、同步、异步总结](http://www.cnblogs.com/Anker/p/3254269.html)
 
