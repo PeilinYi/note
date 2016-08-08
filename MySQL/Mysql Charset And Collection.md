@@ -8,12 +8,13 @@ SHOW CHARACTER SET;
 SHOW COLLATION;
 ```
 
-* Collation Case Sensitivity Suffixes
-    | Suffix | Meaning |
-    | - | - |
-    | _ci | Case insensitive |
-    | _cs | Case sensitive |
-    | _bin | Binary |
+## Collation Case Sensitivity Suffixes
+
+| Suffix | Meaning |
+| :----: | :-----: |
+| _ci | Case insensitive |
+| _cs | Case sensitive |
+| _bin | Binary |
 
 ## UTF8 Collation
 
